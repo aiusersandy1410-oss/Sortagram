@@ -30,8 +30,8 @@ function issueSession(res, userId){
   const token = jwt.sign({ uid: userId }, JWT_SECRET, { expiresIn: '365d' });
   res.cookie('session', token, {
     httpOnly: true,
-    secure: isProd,
-    sameSite: 'lax',
+    secure: true,
+    sameSite: 'none',
     maxAge: 365 * 24 * 60 * 60 * 1000
   });
 }
