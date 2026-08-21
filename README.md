@@ -1,4 +1,4 @@
-# Sortagramthestasher
+# Sortagram
 
 A free, private, local-first tool for organizing saved Instagram/TikTok/etc.
 reels and posts by topic and creator. No account required to use it.
